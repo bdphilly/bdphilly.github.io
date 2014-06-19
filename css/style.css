@@ -702,6 +702,7 @@
 					text-align: center;
 				}
 
+
 /*********************************************************************************/
 /* Icons                                                                         */
 /* Powered by Font Awesome by Dave Gandy | http://fontawesome.io                 */
@@ -1503,4 +1504,8 @@
 
 .chess {
 	left: -110px;
+}
+
+#snake {
+	left: -55px;
 }
