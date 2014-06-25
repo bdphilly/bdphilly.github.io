@@ -2,8 +2,12 @@
 /* Banner                                                                        */
 /*********************************************************************************/
 
-	#banner
-	{
-		padding: 4em 0 4em 0;
-		background-size: 175% auto;
-	}
+#banner {
+	padding: 4em 0 4em 0;
+	background-size: 175% auto;
+}
+
+.chess {
+  /*left: -50px;*/
+  background-repeat: repeat;
+}

@@ -472,7 +472,7 @@
 		
 			.button.style2
 			{
-				color: #3a3939;
+				color: #35b88f;
 				background: #fff;
 				box-shadow: inset 0 0 0 1px #fff;
 			}
@@ -485,9 +485,9 @@
 
 				.button.style2:hover
 				{
-					background: rgba(255,255,255,0.1);
+					background: #35b88f;
 					color: #fff !important;
-					text-shadow: 0 0 0.5px rgba(255,255,255,0.25) !important;
+					box-shadow: inset 0 0 0 1px white;
 				}
 
 				.button.style-banner:hover
@@ -1165,7 +1165,7 @@
 			{
 				border-top: solid 1px rgba(255,255,255,0.5);
 				/*color: rgba(255,255,255,0.75);*/
-				color: black;
+				color: white;
 				text-shadow: 0 0 0.5px rgba(255,255,255,0.1875);
 				font-size: 1em;
 				text-transform: uppercase;
@@ -1503,9 +1503,13 @@
 }
 
 .chess {
-	left: -110px;
+	left: -50px;
 }
 
 #snake {
 	left: -55px;
+}
+
+#asteroids {
+  width: 100%;
 }
