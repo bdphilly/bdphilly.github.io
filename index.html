@@ -1,124 +1,158 @@
 <!DOCTYPE HTML>
+<!--
+	Props to HTML5-UP!
+-->
 <html>
-  <head>
-    <title>Bryan Phillips</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic" rel="stylesheet" type="text/css" />
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.poptrox.min.js"></script>
-    <script src="js/skel.min.js"></script>
-    <script src="js/init.js"></script>
-          
+	<head>
+		<title>Bryan Phillips</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/> 
-    <noscript>
-      <link rel="stylesheet" href="css/skel-noscript.css" />
-      <link rel="stylesheet" href="css/style.css" />
-    </noscript>
-  </head>
-  <body>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-noscript.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body class="index loading">
+		<!-- Banner -->		
+			<section id="banner">
+				<div class="inner">
+					
+					<header>
+						<h2>Hi, I'm Bryan</h2>
+					</header>
+					<p>I'm a software developer<br />
+					living in San Francisco<br />
+					</p>
+				</div>
+				
+			</section>
+		<!-- Main -->
+			<article id="main">
 
-    <!-- Header -->
-      <section id="header">
-        <header>
-          <h1>Hi, I'm Bryan</h1>
-          <p>I'm a web developer</p>
-        </header>
-        <footer>
-          <a href="#banner" class="button style2 scrolly scrolly-centered">My story</a>
-        </footer>
-      </section>
-    
-    <!-- Banner -->
-      <section id="banner">
-        <header>
-          <h2>Technical Skills</h2>
-        </header>
-        <p>My focus is in sustainable web application architecture</p>
-        <br>
-        <p>Ruby on Rails, Ruby, Backbone.js, JavaScript, jQuery, SQL, HTML5, CSS3, Git, RSpec, Adobe Creative Suite</p>
-        <footer>
-          <a href="#first" class="button style-banner scrolly">A few recent projects</a>
-        </footer>
-      </section>
-    
-    <!-- Feature 1 -->
-    <section id="portfolio">
-      <article id="first" class="container box style1 right gallery">
-        <a href="images/brahboards_code.png" class="image full"><img src="images/brahboards_900_header_cropped.png" class="brahboards" alt="" title='See it live <a href="http://www.brahboards.com" target="_blank">here</a> or check out the code on <a href="https://github.com/bdphilly/SurfboardApp" target="_blank">Github</a>.'/></a>
-        <div class="inner">
-          <header>
-            <h2>Brahboards</h2>
-          </header>
-          <p>Peer to peer surfboard sharing app. Consumable Rails API with a Backbone.js frontend. Upload boards, rent boards,  stable booking system, Google Maps API integration, custom SQL queries.</p>
-        </div>
-      </article>
-    
-    <!-- Feature 2 -->
-      <article id="second" class="container box style1 left gallery">
-        <a href="images/asteroids_code.png" class="image full"><img src="images/asteroids.png" id="asteroids" alt="" title='Play the game <a href="http://www.bryanphillips.me/asteroids" target="_blank">here</a> or check out the code on <a href="https://github.com/bdphilly/Asteroids" target="_blank">Github</a>.' /></a>
-        <div class="inner">
-          <header>
-            <h2>Asteroids<br>
-          </header>
-          <p>This Atari game has been classic since '79. Utilizes HTML5 Canvas, JavaScript, jQuery and CSS3.</p>
-        </div>
-      </article>
+				<header class="special container">
+					<span class="icon fa-laptop"></span>
+					<h2>My focus is in sustainable web application architecture</h2>
+					<p>Ruby on Rails, Ruby, Backbone.js, JavaScript, jQuery, SQL, HTML5, CSS3, Git, RSpec, Adobe Creative Suite</p>
+				</header>
+					
+				<!-- One -->
+					<section class="wrapper style2 container special-alt">
+						<div class="about">
+				        <p>When I'm not developing software with the newest technologies, I spend my free time snowboarding, surfing, mountain biking, waterskiing, camping and traveling. I've been to all 50 states and 25 countries.</p>
+				        <br>
+				        <p>I'm a proud graduate of the University of Wisconsin-Madison and a die hard Badgers and Packers fan.</p>
+				        <br>
+								<footer>
+									<ul class="buttons">
+										<li align=""><a href="https://docs.google.com/document/d/19HAe6bhaBkD83Zq1-zfWNXifa-hGGJVjZD4tbceyQ3k" target="_blank" class="button">Check out my resume</a></li>
+									</ul>
+								</footer>
+						</div>
+					</section>
+					
+				<!-- Two -->
+					<section class="wrapper style3 container special">
+					
+						<header class="major">
+							<h2>A few recent <strong>projects</strong></h2>
+						</header>
+						
+						<div class="row">
+							<div class="6u">
+							
+								<section>
+									<a href="http://www.brahboards.com" target="_blank" class="image feature"><img src="images/brahboards.png" alt="" /></a>
+									<header>
+										<h3>Brahboards</h3>
+									</header>
+									<p>Peer to peer surfboard sharing app. Consumable Rails API with a Backbone.js frontend. Upload boards, rent boards, stable booking system, Google Maps API integration, custom SQL queries.</p>
+								</section>
 
-    <!-- Feature 3 -->
-      <article id="third" class="container box style1 right gallery">
-        <a href="images/chess_code.png" class="image full"><img src="images/chess_board.png"  class="chess" alt="" title='View the code on <a href="https://github.com/bdphilly/Chess" target="_blank">Github</a>.'/></a>
-        <div class="inner">
-          <header>
-            <h2>Chess</h2>
-          </header>
-          <p>Object oriented Chess game developed in Ruby. Pieces inherit from sliding piece and jumping piece classes.</p>
-        </div>
-      </article>      
+							</div>
+							<div class="6u">
+							
+								<section>
+									<a href="http://www.bryanphillips.me/asteroids" target="_blank" class="image feature"><img src="images/asteroids.png" alt="" /></a>
+									<header>
+										<h3>Asteroids</h3>
+									</header>
+									<p>This Atari game has been classic since '79. Utilizes HTML5 Canvas, JavaScript, jQuery and CSS3.</p>
+								</section>
 
+							</div>
+						</div>
+						<div class="row">
+							<div class="6u">
+							
+								<section>
+									<a href="http://www.bryanphillips.me/snake" target="_blank" class="image feature"><img src="images/snake.png" alt="" /></a>
+									<header>
+										<h3>Snake</h3>
+									</header>
+									<p>You probably played this game on the first ever cell phone. Uses JavaScript, HTML &amp; CSS.</p>
+								</section>
 
-    <!-- Feature 4 -->
-      <article id="second" class="container box style1 left gallery">
-        <a href="images/snake_code.png" class="image full"><img src="images/snake.png" id="snake" alt="" title='Play the game <a href="http://www.bryanphillips.me/snake" target="_blank">here</a> or check out the code on <a href="https://github.com/bdphilly/snake" target="_blank">Github</a>.'  /></a>
-        <div class="inner">
-          <header>
-            <h2>Snake<br>
-          </header>
-          <p>You probably played this game on the first ever cell phone. Uses JavaScript, HTML &amp; CSS.</p>
-        </div>
-      </article>
-    </section>
+							</div>
+							<div class="6u">
+							
+								<section>
+									<a href="https://github.com/bdphilly/Chess" class="image feature"><img src="images/chess.png" alt="" /></a>
+									<header>
+										<h3>Chess</h3>
+									</header>
+									<p>Object oriented Chess game developed in Ruby. Pieces inherit from sliding piece and jumping piece classes.</p>
+								</section>
 
-    <!-- About -->
-      <article class="container box style2">
-        <header>
-          <h2>I am currently located in <br> 
-            beautiful San Francisco</h2><br>
+							</div>
+						</div>
 
-          <p>When I'm not developing software with the newest technologies, I spend my free time snowboarding, surfing, mountain biking, waterskiing, camping, and traveling. I've been to all 50 states and 25 countries.</p>
-        <br>
-          <p>I'm a proud graduate of the University of Wisconsin-Madison, and a die hard Badgers and Packers fan.</p>
-        <br>
-          <section>
-            <p>Feel free to check out my <a href="https://docs.google.com/document/d/19HAe6bhaBkD83Zq1-zfWNXifa-hGGJVjZD4tbceyQ3k" target="_blank">resume</a>. <br><br>
-            Care to chat? You can see more of my work and reach me at the links below.</p>
-          </section>
-        </header>
-        </div>
-      </article>
+						<footer class="major">
+							<ul class="buttons">
+								<li><a href="https://www.github.com/bdphilly" target="_blank" class="button">View code on Github</a></li>
+							</ul>
+						</footer>
+					
+					</section>
+					
+			</article>
 
-    <section id="footer">
-      <ul class="icons">
-        <li><a href="http://www.github.com/bdphilly" class="fa fa-github solo" target="_blank"><span>Github</span></a></li>
-        <li><a href="http://www.linkedin.com/in/bdphilly" class="fa fa-linkedin solo" target="_blank"><span>LinkedIn</span></a></li>
-        <li><a href="mailto:bdphilly@gmail.com" class="fa fa-envelope-o solo"><span>Email</span></a></li>
-      </ul>
-      <div class="copyright">
-        Made with <span class="fa fa-heart-o solo"></span> in San Francisco &nbsp; | &nbsp; 2014
-      </div>
-    </section>
+		<!-- CTA -->
+			<section id="cta">
+			
+				<header>
+					<h2>Need a <strong>developer</strong>?</h2>
+					<p>Drop me a line and say hi!</p>
+				</header>
+				<footer>
+					<ul class="buttons">
+						<li><a href="mailto:bdphilly@gmail.com" class="button special">Email me</a></li>
+					</ul>
+				</footer>
+			
+			</section>
 
-  </body>
+		<!-- Footer -->
+			<footer id="footer">
+			
+				<ul class="icons">
+					<li><a href="https://www.github.com/bdphilly" class="icon circle fa-github" target="_blank"><span class="label">Github</span></a></li>
+					<li><a href="https://www.linkedin.com/in/bdphilly" class="icon circle fa-linkedin" target="_blank"><span class="label">Dribbble</span></a></li>
+				</ul>
+				
+				<span class="copyright">Made with <span class="fa fa-heart-o solo"></span> in San Francisco &nbsp; | &nbsp; 2014</span>
+			
+			</footer>
+	</body>
 </html>
